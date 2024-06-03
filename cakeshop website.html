@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+                   display: flex;
+                   border: 5px solid yellow;
+                   /* background-color: silver; */
+        }
+
+    .nav_list{
+        /* border: 5px solid black; */
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    .nav_list li{
+        padding: 5px 20px ;
+        list-style: none;
+        font-size: 20px;
+        
+    }
+
+    .nav_list li:hover{
+        padding: 5px 20px ;
+        list-style: none;
+        background-color: yellow;
+        
+    }
+    .right_nav{
+        /* border: 5px solid black; */
+        width: 50%;
+        text-align: right;
+        padding: 5px 20px ;
+    }
+    .logo>img{
+        width: 50px;
+        border-radius: 50%;
+    }
+    .background{
+        background: url(./cakebg.jpeg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    .boxmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        padding: 150px;
+    }
+    .boxmain>firsthalf{
+        padding: 30px;
+    }
+   
+    .firsthalf{
+       text-align: justify;
+       width: 80%;
+       color: brown;
+       font-weight: bold;
+       padding: 226px 184px;
+        
+}
+.secondhalf{
+    width: 20%;
+    padding: 226px 10px;
+}
+ .textbig{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}  
+    .secondhalf>img{
+        margin-right: 200px;
+        border-radius: 50%;
+        border: 5px solid white;
+        
+        
+    }
+
+    .secRight{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 150px 50px ;
+    }
+    .ck1{
+        height: 300px;
+        width: 300px;
+        padding: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+     @media all and (max-width:800px){
+        .nav_list {
+        flex-direction: column;
+    align-items: center; }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_nav{
+        text-align: center;
+    }
+
+    .boxmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        padding: 150px;
+        flex-wrap: wrap;
+    }
+    
+    .firsthalf{
+       text-align: justify;
+       width: 80%;
+       color: brown;
+       font-weight: bold;
+      
+        
+}
+.secondhalf{
+    width: 20%;
+    
+}
+.textbig{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}  
+    .i1{
+        
+        border-radius: 30%;
+        border: 5px solid white;
+        margin-left:10px ;
+       
+        
+    }
+     }
+
+
+    </style>
+</head>
+<body>
+<!-- [nav tag is basically a container for home/contact etc etc] -->
+    <nav class="navbar background">
+
+
+        <ul class="nav_list">
+            <div class="logo"> <img src="./ligof.jpeg" alt=""></div>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+
+        <div class="right_nav">
+            <input type="text" name="search" id="search"> 
+            <button class="btn-sm">search</button>                 
+        </div>
+
+        </nav>
+
+        <section class="firstsection background">
+            <div class="boxmain">
+                <div class="firsthalf"> <p class="textbig">Your Favourite Cakes are here!</p>
+                <p class="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, id praesentium fugit sequi ipsam sapiente in natus a sed incidunt adipisci sint quam cum iure minima tenetur ullam. Aperiam, iusto.</p></div>
+                <div class="secondhalf"><img class="i1" src="./logo.jpeg" alt=""></div>
+            </div>
+
+            
+
+        </section>
+
+        <section class="secRight">
+                 <div class="paragraph">
+                 <p class="tag">Your Favourite Cakes are here!</p>
+                <p class="subtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, id praesentium fugit sequi ipsam sapiente in natus a sed incidunt adipisci sint quam cum iure minima tenetur ullam. Aperiam, iusto.</p>
+                </div>
+                <div><img class="ck1" src="./ck1.jpeg" alt=""></div>
+                
+            
+
+            
+
+        </section>
+
+        <section class="secRight">
+            <div class="paragraph">
+            <p class="tag">Your Favourite Cakes are here!</p>
+           <p class="subtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, id praesentium fugit sequi ipsam sapiente in natus a sed incidunt adipisci sint quam cum iure minima tenetur ullam. Aperiam, iusto.</p>
+           </div>
+           <div><img class="ck1" src="./ck1.jpeg" alt=""></div>
+           
+       
+
+       
+
+   </section>
+
+   <section class="secRight">
+    <div class="paragraph">
+    <p class="tag">Your Favourite Cakes are here!</p>
+   <p class="subtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, id praesentium fugit sequi ipsam sapiente in natus a sed incidunt adipisci sint quam cum iure minima tenetur ullam. Aperiam, iusto.</p>
+   </div>
+   <div><img class="ck1" src="./ck1.jpeg" alt=""></div>
+   
+
+
+
+
+</section>
+
+
+
+        
+</body>
+</html>

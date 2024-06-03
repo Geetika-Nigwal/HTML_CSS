@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{ 
+                display: flex;   
+                justify-content: space-around;  
+        }
+        .navlist{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid red; */
+            padding: -19px;
+        }
+
+        .logo>img{
+            width: 60px;
+            border-radius: 50%;
+            padding: 25px 0px;
+        }
+        .navlist li{
+            /* border: 2px solid black; */
+            padding: 30px;
+            list-style: none;
+            padding-bottom: 20px;
+            padding-top: 40px;
+        }
+        .navlist li:hover{
+            /* border: 2px solid black; */
+           color: yellow;
+        }
+        .section1{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid blue; */
+        }
+        .sectA{ 
+                 /* border: 2px solid green; */
+                 padding: 100px 50px;
+
+        }
+        .sectAp{
+
+        }
+        .sectB{
+            /* border: 2px solid green; */
+        }
+        .sectB>img{
+            width: 80%;
+            padding: 50px;
+        }
+        .background{
+        background: url(./cakebg.jpeg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .boxmain{
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid yellow; */
+        padding: 200px;
+    }
+    .firsthalf
+    {
+        padding: 40px 30px ;
+        /* border: 2px solid yellow; */
+    }
+    .secondhalf{
+           padding: 30px;
+           /* border: 2px solid greenyellow; */
+    }
+    .textbig{
+        color: brown;
+        font-size: 50px;
+    }
+    .head{
+        font-size: 50px;
+        color: wheat;
+        text-align: center;
+        border-bottom: 7px solid wheat;
+    }
+    .img1{
+        border-radius: 50px;
+    }
+    .section2{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid blue; */
+        }
+       .right_nav{
+        text-align: right;
+       
+        
+            padding-bottom: 20px;
+            padding-top: 40px;
+        
+       }
+       .form{
+        border-top: 5px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       label{
+        padding: 15px;
+       }
+       .fb{
+        padding: 100px;
+       }
+       .ip{
+        padding: 0 100px;
+       }
+      .formp{
+        padding-bottom: 53px;
+        font-size: 30px;
+       }
+       .formb{
+       padding:0px 83px ; 
+       }
+       .formbt
+       {
+        padding:10px ;
+       }
+
+
+    @media screen and (max-width:780px){
+        .navbar{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .navlist{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .navlist li{
+            padding: 10px;
+        }
+        .boxmain{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .section1{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .section2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="head background">The Craving Corner</div>
+    <nav class="navbar background">
+        
+        <ul class="navlist">
+            <div class="logo"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\extra.html\ligof.jpeg" alt=""></div>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Help</li>
+            
+        </ul>
+        <div class="right_nav">
+            <input type="text" name="search" id="search" placeholder="search your favs!"> 
+            <button class="btn-sm">search</button>                 
+        </div>
+</nav>
+        
+        <section class="firstsection background">
+            <div class="boxmain">
+                <div class="firsthalf"> <p class="textbig">Your Favourite Cakes are here!</p>
+                <p class="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, id praesentium fugit sequi ipsam sapiente in natus a sed incidunt adipisci sint quam cum iure minima tenetur ullam. Aperiam, iusto.</p></div>
+                <div class="secondhalf"><img class="img1" src="./logo.jpeg" alt=""></div>
+            </div>
+
+            
+
+        </section>
+   
+
+    <section class="section1">
+        <div class="sectA"><p class="sectAp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ut placeat! Maiores nam ex expedita. Dolore praesentium minima, sint expedita similique quas tempore aut doloribus cupiditate, atque dolorum, consequuntur nihil.</p></div>
+        <div class="sectB"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\extra.html\ck1.jpeg" alt=""></div>
+    </section>
+
+    <section class="section2">
+        <div class="sectB"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\extra.html\ck2.jpeg" alt=""></div>
+        <div class="sectA"><p class="sectAp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ut placeat! Maiores nam ex expedita. Dolore praesentium minima, sint expedita similique quas tempore aut doloribus cupiditate, atque dolorum, consequuntur nihil.</p></div>
+        
+    </section>
+
+    <section class="section1">
+        <div class="sectA"><p class="sectAp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ut placeat! Maiores nam ex expedita. Dolore praesentium minima, sint expedita similique quas tempore aut doloribus cupiditate, atque dolorum, consequuntur nihil.</p></div>
+        <div class="sectB"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\extra.html\ck3.jpeg" alt=""></div>
+    </section>
+
+    <section class="section2">
+        <div class="sectB"><img src="./ck4.jpeg" alt=""></div>
+        <div class="sectA"><p class="sectAp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ut placeat! Maiores nam ex expedita. Dolore praesentium minima, sint expedita similique quas tempore aut doloribus cupiditate, atque dolorum, consequuntur nihil.</p></div>
+        
+    </section>
+
+    <section class="section1">
+        <div class="sectA"><p class="sectAp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ut placeat! Maiores nam ex expedita. Dolore praesentium minima, sint expedita similique quas tempore aut doloribus cupiditate, atque dolorum, consequuntur nihil.</p></div>
+        <div class="sectB"><img src="./ck5.jpeg" alt=""></div>
+    </section>
+
+    <div class="form background">
+        <p class="formp">FEEDBACK FORM</p>
+        <label for="name">Enter Name:</label>
+        <input class="ip" type="text">
+        <br>
+        <label for="contact">Contact no:</label>
+        <input class="ip" type="text">
+        <br>
+        <label for="feedback">Feedback:</label>
+        <input class="fb" type="text" placeholder="We Value Ur Thoughts!">
+        <div class="formbt"><button class="formb">submit</button></div>
+    </div>
+
+</body>
+</html>

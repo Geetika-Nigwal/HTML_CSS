@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* MAIN CONTAINER  */
+        .container{
+            /* border: 2px solid black; */
+            height: auto;
+            background-color: whitesmoke;
+        }
+
+
+        /* 1ST DIV */
+
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            /* border: 2px solid red; */
+            padding: 12px;
+            background-color: #ffffff;
+            margin-bottom: 5px;
+            
+        }
+        h2{
+            color: rgb(106, 5, 249);
+            margin-bottom: 0;
+            margin-top: 1px;
+            margin-left: 180px;
+            font-family: cursive;
+            font-style: oblique;
+            font-size: 20px;
+        }
+        span{
+            margin-left: 180px;
+            font-size: 12px;
+            color: orange;
+            font-weight: bold;
+            margin-bottom: 5px;
+            }
+        input{
+            height: 40px;
+            width: 700px;
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            background-color: whitesmoke;
+        }
+        #d2{
+            margin-left: 30px;
+            margin-top: 20px; 
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .d1{
+            margin-left: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px; 
+            font-weight: bold;
+        }
+        #d2:hover{
+           color: blue;
+            border-radius: 10px;
+            font-size: 18px;
+        
+            
+        }
+        .d1:hover{
+            color: blue;
+            font-size: 18px;
+        }
+        
+
+        /* 2ND DIV  */
+
+
+        .parent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 90px;
+            background-color: #ffffff;
+            /* border: 2px solid blue; */
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-top: 0;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        }
+
+
+        /* 3RD DIV  */
+
+
+        .image{
+            background-color: #ffffff;
+            margin-left: 100px;
+            margin-right: 100px;
+            /* border: 2px solid violet; */
+            margin-bottom: 10px;
+
+        }
+
+        /* 4TH Div */
+        #mobhead{
+            background-color: whitesmoke;
+            margin-left: 100px;
+            font-size: 20px;
+        }
+       
+            /* 5TH div   */
+            .mobcont{
+                /* border: 2px solid red; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                background-color: #ffffff;
+                
+            }
+             /* 5TH A DIV  */
+
+        .image1{
+            background-color: #ffffff;
+            margin-right: 20px;
+            margin-left: 30px;
+            width: 80%;
+            /* border: 2px solid blueviolet; */
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 60px;
+        
+        
+        }
+        
+
+        .image1>div{
+            height: 100%;
+            width: 15%;
+            
+            border: 1px solid black;
+            justify-content: space-around;
+            }
+            .mobile{
+                height: 70%;
+                width: 70%;
+                margin-left: 15px;
+            }
+            .mobilepara{
+                font-size: 15px;
+            }
+             /* 5TH B div   */
+            .mobcont1{
+                /* border: 2px solid green; */
+                background-color: #ffffff;
+                width: 200px;
+                
+            }
+            #M1{
+                height: 100%;
+                width: 100%;
+            }
+            /* 6th div  */
+            .div6{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .div6>div{
+                /* border: 2px solid black; */
+                margin-left: 10px;
+            }
+            .div6 img{
+                height: 100%;
+                width: 100%;
+            }
+            .div7{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            
+            .div8{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+            .div8>div{
+                /* border: 1px solid black; */
+                margin-left: 10px;
+            }
+            .div8 img{
+                height: 100%;
+                width: 100%;
+            }
+            .div9{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+            .div9>div{
+                /* border: 1px solid black; */
+                margin-left: 10px;
+            }
+            .div9 img{
+                height: 100%;
+                width: 100%;
+            }
+            .div10{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+            .div10>div{
+                /* border: 1px solid black; */
+                margin-left: 10px;
+            }
+            .div10 img{
+                height: 100%;
+                width: 100%;
+            }
+            .div11{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                background-color: #ffffff;
+            }
+            .div11_image{
+            background-color: #ffffff;
+            margin-right: 20px;
+            margin-left: 30px;
+            width: 90%;
+            /* border: 2px solid blueviolet; */
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        
+        
+        }
+        
+
+        .div11_image>div{
+            height: 100%;
+            width: 15%;
+            justify-content: space-evenly;
+            
+            border: 1px solid black;
+    
+            }
+            .div11_image img{
+                height: 70%;
+                width: 70%;
+                margin-left: 20px;
+            }
+            .div12{
+                 /* border: 2px solid brown; */
+                height: 500px;
+                margin-left: 100px;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+            .div12>div{
+                /* border: 2px solid black; */
+                margin-left: 10px;
+                width: 50%;
+            }
+            .div12 img{
+                height: 100%;
+                width: 100%;
+            }
+            .div12a{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .div12a>div{
+                /* border: 2px solid goldenrod; */
+                
+                width: 250px;
+                height: 230px;
+                
+                
+            }
+            .div13{
+                 /* border: 2px solid brown; */
+                height: 300px;
+                background-color: black;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                text-align: center;
+                font-size: 16px;
+                color: white;
+                justify-content: space-around;
+            }
+            .div13>div{
+                /* border: 2px solid white; */
+                margin-top: 20px;
+                width: 250px;
+            }
+            .div13 p{
+                color: white;
+                font-size:9px ;
+                margin-bottom: 5px;
+                font-weight: 700;
+                text-align: justify;
+                
+
+            }
+            .div13 h3{
+                font-size: 10px;
+                color: #878787;
+                
+            }
+
+            
+    </style>
+</head>
+
+
+<body> 
+    
+    <div class="container">
+
+         <!-- 1ST DIV -->
+
+    <div class="header">
+
+    <div><h2>Flipkart</h2>
+    <span>Explore Plus</span></div>
+
+    <div> <input type="search" placeholder="Search for Products,Brands and More "></div>
+    
+    <div id="d2"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\logo1.svg" alt="img">Login</div>
+    <div class="d1"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\logo2.svg" alt="img">Cart</div>
+    <div class="d1"><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\logo3.svg" alt="img">Become a Seller</div>
+    
+    </div>
+     <!-- 2ND DIV -->
+    <div class="parent">
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\img3.webp" alt="">
+        <p>Grocery</p> </div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\img4.png" alt="">
+        <p>Mobiles</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img5.png" alt="">
+        <p>Fashion</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img6.png" alt="">
+        <p>Electronics</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img7.jpg" alt="">
+        <p>Home & furniture</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img8.jpg" alt="">
+        <p>Appliances</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img9.png" alt="">
+        <p>Travel</p></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img10.png" alt="">
+        <p>Beauty,Toys & More</p></div>
+
+    </div>
+    <!-- 3RD DIV -->
+    <div class="image">
+        <img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img11.jpg" alt="" style="width: 100%;">
+    </div>
+
+    <!-- 4TH div -->
+    
+    <div id="mobhead"><h3>Best Deals On Smartphones</h3></div>
+
+    <!-- 5TH Div -->
+    <div class="mobcont">
+        <!-- 5th A DIV  -->
+    <div class="image1">
+        <div><img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\mob1.jpeg" alt="">
+        <p class="mobilepara"> moto edge 40 neo</p></div>
+            <div> <img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\mob2.webp" alt="">
+                <p class="mobilepara"> vivo t2 pro 5G</p>
+            </div>
+                <div><img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\mob3.jpeg" alt="">
+                    <p class="mobilepara"> poco m6 pro</p></div>
+                    <div><img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img_4.jpeg" alt="">
+                        <p class="mobilepara">redmi 12 5G</p></div>
+                        <div><img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\img5.jpeg" alt="">
+                            <p class="mobilepara"> poco X6 neo 5G</p></div>
+                            <div><img class="mobile" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\mob7.jpeg" alt="">
+                                <p class="mobilepara">poco m6 5G</p></div>
+        </div>
+        <!-- 5TH B div  -->
+        <div class="mobcont1"><img id="M1" src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\mob10.webp" alt=""></div>
+    </div>
+    <!-- 6TH DIV  -->
+    <div class="div6">
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div6a.jpeg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div6b.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div6c.jpg" alt=""></div>
+    </div>
+
+    <!-- 7TH DIV  -->
+   
+
+    <div id="mobhead"><h3>Fashion Best Dealers</h3></div>
+    <div class="div11">
+        
+        <div class="div11_image">
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div7a.jpeg" alt=""> 
+            <p class="mobilepara"> Kurtas,Sets& More</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div7b.jpeg" alt="">
+                <p class="mobilepara">NIKE</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div7c.jpeg" alt="">
+                <p class="mobilepara">FASTRACK</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div7d.jpeg" alt="">
+                <p class="mobilepara"> Tommy Hifiger</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11f.jpeg" alt="">
+                <p class="mobilepara">PUMA,Adidas</p></div>
+            
+        </div>
+        
+    </div>
+
+
+    <!-- 8TH DIV  -->
+    <div class="div8">
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div8a.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div8b.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div8c.jpg" alt=""></div>
+    </div>
+
+    <!-- 9TH DIV  -->
+    <div class="div9">
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div9a.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\893ea2a230487675.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div9c.jpg" alt=""></div>
+    </div>
+    <!-- 10TH DIV  -->
+    <div class="div10">
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div10a.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div10b.jpg" alt=""></div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div10c.jpg" alt=""></div>
+    </div>
+
+    <!-- 11TH DIV  -->
+
+    <div id="mobhead"><h3>Top Deals</h3></div>
+    <div class="div11">
+        
+        <div class="div11_image">
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11a.jpeg" alt=""> 
+            <p class="mobilepara"> Jack & Jones</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11b.jpeg" alt="">
+                <p class="mobilepara">Adidas,Sketchers</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11c.jpeg" alt="">
+                <p class="mobilepara">Titan</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11d.jpeg" alt="">
+                <p class="mobilepara"> Fastrack</p></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div11f.jpeg" alt="">
+                <p class="mobilepara">PUMA,Adidas</p></div>
+            
+        </div>
+        
+    </div>
+    <!-- 12TH DIV  -->
+    <div class="div12">
+        <div class="div12a">
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div12a.jpeg" alt=""></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div12b.jpeg" alt=""></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div12c.jpeg" alt=""></div>
+            <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\m-kh9bl7196-indo-era-original-imagqbmbynvnqw88.jpeg" alt=""></div>
+           </div>
+        <div><img src="C:\Users\Gitika\OneDrive\Desktop\frontend\html\16may24\div6a.jpeg" alt=""></div>
+        
+    </div>
+    
+    <div class="div13">
+        <div><h3>ABOUT</h3>
+            <p>Contact us</p>
+            <p>About us</p>
+            <p>Careers</p>
+            <p>Flipkart stories</p>
+            <p>Press</p>
+            <p>Corporate Information</p></div>
+        <div><h3>GROUP COMPANIES</h3>
+            <p>Myntra</p>
+            <p>Flipkart Wholesale</p>
+            <p>Cleartrip</p>
+            <p>Shopsy</p></div>
+            
+        <div>
+            <h3>HELP</h3>
+            <p>Payments</p>
+            <p>Shipping</p>
+            <p>Cancellation & Returns</p>
+            <p>FAQ</p>
+            <p>Report Infringements</p>
+            
+        </div>
+        <div>
+            <h3>CONSUMER POLICY</h3>
+            <p>Cancellation & Returns</p>
+            <p>Terms of use</p>
+            <p>Security</p>
+            <p>Privacy</p>
+            <p>Sitemap</p>
+            <p>Grievance Redressal</p>
+            <p>EPR Compilance</p>
+        </div>
+        <div style="border-left: 2px solid white;"><h3>MAIL US:</h3>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Building Alyssa,Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring road Devarabessanahali Village,</p>
+            <p>Bengaluru,560103</p>
+            <p>Karnataka,India</p></div>
+            <div><h3>REGISTERED OFFICE ADDRESS</h3>
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Building Alyssa,Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring road Devarabessanahali Village,</p>
+                <p>Bengaluru,560103</p>
+                <p>Karnataka,India</p>
+                <p>CIN:U51109KA2012PTC066107</p>
+            </div>
+        
+    </div>
+    </div>
+    
+    </div>
+</body>
+</html>
